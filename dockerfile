@@ -14,5 +14,5 @@ WORKDIR /opt/apache-tomcat-8.5.99
 
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war webapps/
 
-CMD bin/catalina.sh 
+CMD sh bin/catalina.sh RUN
 

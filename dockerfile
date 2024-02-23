@@ -38,4 +38,4 @@
 
     FROM centos:7
 
-    LABEL key="value"
+    LABEL Publisher="Nilesh"

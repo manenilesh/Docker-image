@@ -36,4 +36,5 @@
     ## Create Node JS Application
 
 
-    fr
+    FROM centos:7
+    

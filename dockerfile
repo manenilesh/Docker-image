@@ -1,4 +1,4 @@
-#    ## This is My First Docker File
+    ## This is My First Docker File
 #   
 #    FROM centos:7
 #    

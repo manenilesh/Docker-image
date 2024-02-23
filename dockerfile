@@ -2,4 +2,4 @@
 FROM centos:7
 LABEL Author="Nilesh"
 
-RUN yum install 
+RUN yum install java-11-opn

@@ -13,7 +13,7 @@
 #    CMD  httpd -DFOREGROUND
 #
 
-##Create Tomcat Application 
+    ##Create Tomcat Application 
 
 #    FROM centos:7
 #    LABEL Author="Nilesh"

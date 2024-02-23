@@ -40,4 +40,4 @@
 
     LABEL Publisher="Nilesh"
 
-    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh |
+    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh 

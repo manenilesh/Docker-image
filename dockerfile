@@ -4,4 +4,4 @@ LABEL Author="Nilesh"
 
 RUN yum install java-11-openjdk -y
 
-ADD  dest
+ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.99/bin/apache-tomcat-8.5.99.tar.gz /opt/

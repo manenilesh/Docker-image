@@ -11,3 +11,5 @@ RUN tar -xvf /opt/apache-tomcat-8.5.99.tar.gz -C /opt/
 EXPOSE 8080
 
 WORKDIR /opt/apache-tomcat-8.5.99
+
+ADD source dest

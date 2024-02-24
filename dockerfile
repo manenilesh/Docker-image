@@ -49,6 +49,8 @@
     WORKDIR /opt/devops-fullstack-app/frontend/
 
     RUN  source ~/.bashrc
+
+    COPY package*.json ./
     
     RUN npm install
     

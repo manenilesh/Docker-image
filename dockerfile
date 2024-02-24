@@ -48,8 +48,6 @@
 
     WORKDIR /opt/devops-fullstack-app/frontend/
 
-    RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-
     RUN  source ~/.bashrc
 
     COPY package*.json ./

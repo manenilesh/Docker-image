@@ -36,30 +36,32 @@
     ## Create Node JS Application
 
 
-    FROM ubuntu:latest
+#    FROM ubuntu:latest
+#
+#    LABEL Owner="Nilesh"
+#
+#    USER root
+#    
+#    RUN apt update
+#
+#    RUN apt install -y git
+#
+#    RUN apt install -y npm
+#
+#    
+#    WORKDIR /opt/
+#
+#    RUN git clone https://github.com/manenilesh/nodeJSAppl.git  /opt
+#
+#    WORKDIR /opt/nodeJSAppl/frontend/
+#
+#    EXPOSE 3000
+#    
+#    RUN npm install
+#
+#    RUN npm fund
+#    
+#    CMD [ "npm", "start" ]
 
-    LABEL Owner="Nilesh"
 
-    USER root
-    
-    RUN apt update
-
-    RUN apt install -y git
-
-    RUN apt install -y npm
-
-    
-    WORKDIR /opt/
-
-    RUN git clone https://github.com/manenilesh/nodeJSAppl.git  /opt
-
-    WORKDIR /opt/nodeJSAppl/frontend/
-
-    EXPOSE 3000
-    
-    RUN npm install
-
-    RUN npm fund
-    
-    CMD [ "npm", "start" ]
 

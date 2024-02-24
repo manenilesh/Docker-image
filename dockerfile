@@ -40,7 +40,7 @@
 
     LABEL Owner="Nilesh"
 
-    RUN yum install git -y
+    RUN install git -y
 
     RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
@@ -52,7 +52,7 @@
 
     COPY package*.json ./
     
-    RUN  yum install npm
+    RUN  install npm
     
     CMD [ "npm", "start" ]
 

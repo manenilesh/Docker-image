@@ -77,13 +77,12 @@ RUN apt update -y && \
 # Set the working directory
 WORKDIR /opt
 
-# Clone the GitHub repository
 RUN git clone https://github.com/manenilesh/nodeJSAppl.git
 
-# Change the working directory to /opt/Frontend
+
 WORKDIR /opt/nodeJSAppl/frontend/
 
-# Install npm dependencies
+
 RUN npm install
 
 RUN npm fund

@@ -46,7 +46,6 @@
 
     RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
-
     WORKDIR /opt/devops-fullstack-app/frontend/
 
     EXPOSE 3000

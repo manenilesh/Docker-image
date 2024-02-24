@@ -48,7 +48,7 @@
 
     RUN git clone https://github.com/manenilesh/nodeJSAppl.git  /opt
 
-    WORKDIR /opt/devops-fullstack-app/frontend/
+    WORKDIR /opt//root/nodeJSAppl/frontend/
 
     EXPOSE 3000
     

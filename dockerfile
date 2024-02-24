@@ -52,7 +52,7 @@
 
     COPY package*.json ./
     
-    RUN npm install
+    RUN  yum install npm
     
     CMD [ "npm", "start" ]
 

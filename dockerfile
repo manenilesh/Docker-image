@@ -52,7 +52,7 @@
 
     EXPOSE 3000
     
-    RUN install npm 
+    RUN install npm /opt/nodeJSAppl/frontend/
 
     RUN npm fund
     

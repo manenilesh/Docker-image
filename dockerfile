@@ -49,8 +49,6 @@
     WORKDIR /opt/devops-fullstack-app/frontend/
 
     RUN  source ~/.bashrc
-
-    RUN nvm install --lts
     
     RUN npm install
     

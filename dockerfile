@@ -81,7 +81,7 @@ WORKDIR /opt
 RUN git clone https://github.com/manenilesh/nodeJSAppl.git
 
 # Change the working directory to /opt/Frontend
-WORKDIR /opt/nodeJSAppl
+WORKDIR /opt/nodeJSAppl/frontend/
 
 # Install npm dependencies
 RUN npm install

@@ -50,9 +50,9 @@
 
     EXPOSE 3000
     
-    RUN  install npm -y
+    RUN install npm -y
 
-    RUN 
+    RUN npm fund
 
     RUN npm install react-scripts@3.4.1 -g
 

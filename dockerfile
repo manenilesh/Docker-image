@@ -52,7 +52,7 @@
 
     EXPOSE 3000
 
-    ENTRYPOINT  source ~/.bsshrc
+    ENTRYPOINT  source ~/.bashrc
 
     #RUN install nvm -y
 

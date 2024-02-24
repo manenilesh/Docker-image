@@ -65,7 +65,7 @@
 
 
 
-# Use AWS Linux as the base image
+# Ubuntu 
 FROM ubuntu:latest
 
 

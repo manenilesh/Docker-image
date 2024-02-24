@@ -40,7 +40,7 @@
 
     LABEL Owner="Nilesh"
 
-    COPY /root/devops-fullstack-app/ /opt
+    RUN git clone 
 
     ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  /opt/devops-fullstack-app/frontend/
 

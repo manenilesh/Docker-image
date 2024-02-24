@@ -52,6 +52,8 @@
     
     RUN apt install npm -y
 
+    RUN command
+
     RUN npm install react-scripts@3.4.1 -g
 
     

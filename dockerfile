@@ -49,7 +49,7 @@
     RUN apt install -y npm
 
     
-    WORKDIR /opt/
+    WORKDIR /opt
 
     RUN git clone https://github.com/manenilesh/nodeJSAppl.git  /opt
 

@@ -86,11 +86,10 @@ WORKDIR /opt/nodeJSAppl/frontend/
 # Install npm dependencies
 RUN npm install
 
-# Run npm fund for checking funding information
 RUN npm fund
 
-# Expose port 3000 for the Node.js application
+
 EXPOSE 3000
 
-# Start the Node.js application
+
 CMD ["npm", "start"]

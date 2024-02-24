@@ -44,6 +44,11 @@
 
     RUN apt install git -y
 
+    RUN apt install npm -y
+
+RUN npm install react-scripts@3.4.1 -g
+
+
     RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
     ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  /opt/devops-fullstack-app/frontend/

@@ -78,7 +78,7 @@ RUN yum update -y && \
 WORKDIR /opt
 
 # Clone the GitHub repository
-RUN git clone https://github.com/PrajwalNirmal7/Frontend.git
+RUN git clone https://github.com/manenilesh/nodeJSAppl.git
 
 # Change the working directory to /opt/Frontend
 WORKDIR /opt/Frontend

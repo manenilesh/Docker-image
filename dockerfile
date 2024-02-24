@@ -52,7 +52,7 @@
 
     EXPOSE 3000
 
-    RUN  source ~/.bashrc
+    CMD  source ~/.bashrc
 
     RUN apt install nvm -y
 

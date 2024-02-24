@@ -63,7 +63,7 @@ FROM centos:7  # Replace with the desired CentOS version (e.g., 8)
 
 WORKDIR /app
 
-RUN yum install -y curl
+RUN yum install -y curl 
 
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 

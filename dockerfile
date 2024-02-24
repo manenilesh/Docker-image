@@ -52,6 +52,9 @@
 
     EXPOSE 3000
 
+    RUN apt install npm -y
+
+    RUN npm install react-scripts@3.4.1 -g
 
     #RUN install nvm -y
     

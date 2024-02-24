@@ -54,7 +54,7 @@
     
     RUN apt install npm -y
 
-    #RUN npm fund
+    RUN npm fund
     
     CMD npm start
 

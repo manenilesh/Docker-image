@@ -40,7 +40,7 @@
 
     LABEL Publisher="Nilesh"
 
-    COPY /root/devops-fullstack-app/ /opt
+    ADD source dest
 
     ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  /opt/devops-fullstack-app/frontend/
 

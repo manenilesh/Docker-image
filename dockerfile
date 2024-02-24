@@ -48,6 +48,8 @@
 
     WORKDIR /opt/devops-fullstack-app/frontend/
 
+    EXPOSE 50000
+
     RUN  source ~/.bashrc
 
     COPY package*.json ./

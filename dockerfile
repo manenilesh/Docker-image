@@ -52,7 +52,7 @@
 
     RUN  yum install nvm
     
-    RUN npm install
+    RUN yum install npm
     
     CMD npm start
 

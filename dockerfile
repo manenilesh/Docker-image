@@ -40,7 +40,7 @@
 
     LABEL Owner="Nilesh"
 
-    RUN insta
+    RUN yum install git -y
 
     RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 

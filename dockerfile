@@ -64,6 +64,7 @@ FROM centos:7  # Replace with the desired CentOS version (e.g., 8)
 WORKDIR /app
 
 RUN yum install git -y 
+ RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 

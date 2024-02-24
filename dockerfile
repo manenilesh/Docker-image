@@ -54,5 +54,5 @@
     
     RUN yum install npm
     
-    CMD npm start
+    CMD [ "npm", "start" ]
 

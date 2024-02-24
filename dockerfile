@@ -43,6 +43,7 @@
     RUN apt update
 
     RUN apt install git -y
+    
     WORKDIR /opt/
 
     RUN git clone https://github.com/manenilesh/nodeJSAppl.git  /opt

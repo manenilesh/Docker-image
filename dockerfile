@@ -58,6 +58,8 @@
     RUN npm install
 
     RUN npm fund
+
+    EXPOSE 3000
     
     CMD [ "npm", "start" ]
 

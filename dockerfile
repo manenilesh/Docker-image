@@ -46,7 +46,6 @@
 
     RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
-    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh /opt/devops-fullstack-app/frontend/
 
     WORKDIR /opt/devops-fullstack-app/frontend/
 

@@ -52,7 +52,7 @@
 
     EXPOSE 3000
     
-    RUN install npm -y
+    RUN install npm 
 
     RUN npm fund
     

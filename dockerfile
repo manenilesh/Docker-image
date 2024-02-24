@@ -66,7 +66,7 @@
 
 
 # Use AWS Linux as the base image
-FROM amazonlinux:latest
+FROM ubuntu:latest
 
 # Update the package repository and install necessary packages as root
 USER root

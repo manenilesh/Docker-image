@@ -68,13 +68,13 @@
 # Use AWS Linux as the base image
 FROM ubuntu:latest
 
-# Update the package repository and install necessary packages as root
+
 USER root
 RUN apt update -y && \
     apt install -y git && \
     apt install -y npm
 
-# Set the working directory
+
 WORKDIR /opt
 
 RUN git clone https://github.com/manenilesh/nodeJSAppl.git

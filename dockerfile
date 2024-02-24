@@ -52,7 +52,7 @@
 
     EXPOSE 3000
 
-    CMD  source ~/.bashrc
+    ENTRYPOINT  source ~/.bashrc
 
     RUN apt install nvm -y
 

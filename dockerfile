@@ -44,7 +44,7 @@
 
     RUN apt install git -y
 
-    RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
+    RUN git clone https://github.com/manenilesh/nodeJSAppl.git  /opt
 
     WORKDIR /opt/devops-fullstack-app/frontend/
 

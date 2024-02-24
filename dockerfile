@@ -57,5 +57,6 @@
     RUN npm install react-scripts@3.4.1 -g
 
     #RUN install nvm -y
+    
     CMD [ "npm", "start" ]
 

@@ -36,44 +36,25 @@
     ## Create Node JS Application
 
 
-#    FROM centos:7
-#
-#    LABEL Owner="Nilesh"
-#
-#    RUN yum install git -y
-#
-#    RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
-#
-#    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  /opt/devops-fullstack-app/frontend/
-#
-#    WORKDIR /opt/devops-fullstack-app/frontend/
-#
-#    RUN curl -fsSL https://deb.nodesource.com/setup_18.x | sh -
-#
-#    RUN  source ~/.bashrc
-#
-#    COPY package*.json ./
-#    
-#    RUN  yum install npm
-#    
-#    CMD [ "npm", "start" ]
+    FROM centos:7
 
+    LABEL Owner="Nilesh"
 
-FROM centos:7  # Replace with the desired CentOS version (e.g., 8)
+    RUN yum install git -y
 
-WORKDIR /app
+    RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
-RUN yum install git -y 
+    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  /opt/devops-fullstack-app/frontend/
 
-RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
+    WORKDIR /opt/devops-fullstack-app/frontend/
 
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+    RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
 
-RUN yum install -y nodejs
+    RUN  source ~/.bashrc
 
-COPY package*.json ./
-RUN npm install
+    COPY package*.json ./
+    
+    RUN  yum install npm
+    
+    CMD [ "npm", "start" ]
 
-COPY . .
-
-CMD [ "npm", "start" ]

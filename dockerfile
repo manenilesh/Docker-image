@@ -54,7 +54,7 @@
 
     ENTRYPOINT  source ~/.bashrc
 
-    RUN apt install nvm -y
+    #RUN install nvm -y
 
     #COPY package*.json ./
     

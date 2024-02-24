@@ -50,7 +50,7 @@
 
     RUN  source ~/.bashrc
 
-    RUN npm install
+    RUN nvm install
     
     RUN npm install
     

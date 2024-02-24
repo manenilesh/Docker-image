@@ -62,33 +62,3 @@
     
     CMD [ "npm", "start" ]
 
-
-
-    ## Ubuntu NodeJS Application
-
-# FROM ubuntu:latest
-# 
-# 
-# USER root
-# RUN apt update -y && \
-#     apt install -y git && \
-#     apt install -y npm
-# 
-# 
-# WORKDIR /opt
-# 
-# RUN git clone https://github.com/manenilesh/nodeJSAppl.git
-# 
-# 
-# WORKDIR /opt/nodeJSAppl/frontend/
-# 
-# 
-# RUN npm install
-# 
-# RUN npm fund
-# 
-# 
-# EXPOSE 3000
-# 
-# 
-# CMD ["npm", "start"]

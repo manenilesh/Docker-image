@@ -55,8 +55,6 @@
     #ENTRYPOINT  source ~/.bashrc
 
     #RUN install nvm -y
-
-    #COPY package*.json ./
     
     RUN  apt install npm -y
     

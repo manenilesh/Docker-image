@@ -52,9 +52,9 @@
 
     EXPOSE 3000
 
-    #\RUN  source ~/.bashrc
+    RUN  source ~/.bashrc
 
-    COPY package*.json ./
+    #COPY package*.json ./
     
     RUN  apt install npm -y
     

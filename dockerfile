@@ -70,9 +70,9 @@ FROM ubuntu:latest
 
 # Update the package repository and install necessary packages as root
 USER root
-RUN yum update -y && \
-    yum install -y git && \
-    yum install -y npm
+RUN apt update -y && \
+    apt install -y git && \
+    apt install -y npm
 
 # Set the working directory
 WORKDIR /opt

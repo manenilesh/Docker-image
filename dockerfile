@@ -40,4 +40,17 @@
 
     LABEL Publisher="Nilesh"
 
-    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh 
+    COPY /root/devops-fullstack-app /opt/
+
+    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  | bash /opt/devops-fullstack-app/frontend/
+
+    WORKDIR /opt/devops-fullstack-app/frontend/
+
+    RUN  source ~/.bashrc
+
+    RUN  nvm install --lts
+    
+    RUN npm install
+    
+    CMD npm start
+

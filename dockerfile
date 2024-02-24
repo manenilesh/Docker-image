@@ -40,6 +40,7 @@
 
     LABEL Owner="Nilesh"
 
+    USER root
     
     RUN apt update
 

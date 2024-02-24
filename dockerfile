@@ -42,7 +42,7 @@
 
     COPY /root/devops-fullstack-app /opt/
 
-    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  | sh /opt/devops-fullstack-app/frontend/
+    ADD https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh  /opt/devops-fullstack-app/frontend/
 
     WORKDIR /opt/devops-fullstack-app/frontend/
 

@@ -36,7 +36,7 @@
     ## Create Node JS Application
 
 
-    FROM ubuntu:
+    FROM ubuntu:22.04
 
     LABEL Owner="Nilesh"
 

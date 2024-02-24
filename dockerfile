@@ -50,7 +50,7 @@
 
     RUN  source ~/.bashrc
 
-    RUN  yum install nvm
+    RUN npm install
     
     RUN yum install npm
     

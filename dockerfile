@@ -51,14 +51,10 @@
     WORKDIR /opt/devops-fullstack-app/frontend/
 
     EXPOSE 3000
+    RUN apt install npm -y
 
-    ENTRYPOINT  source ~/.bashrc
+    RUN npm install react-scripts@3.4.1 -g
 
-    #RUN install nvm -y
-
-    #COPY package*.json ./
-    
-    RUN  apt install npm -y
     
     CMD [ "npm", "start" ]
 

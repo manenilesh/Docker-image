@@ -53,7 +53,8 @@
     EXPOSE 3000
 
     RUN  source ~/.bashrc
-    RUN 
+    
+    RUN nvm install --lts
 
     #COPY package*.json ./
     

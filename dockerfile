@@ -48,7 +48,7 @@
 
     WORKDIR /opt/devops-fullstack-app/frontend/
 
-    EXPOSE 50000
+    EXPOSE 3000
 
     RUN  source ~/.bashrc
 

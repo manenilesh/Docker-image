@@ -52,7 +52,7 @@
 
     RUN npm install
     
-    RUN yum install npm
+    RUN npm install
     
     CMD [ "npm", "start" ]
 

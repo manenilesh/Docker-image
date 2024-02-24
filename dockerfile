@@ -54,8 +54,7 @@
 
     RUN npm fund
 
-    RUN npm install react-scripts@3.4.1 -g
 
     
-    CMD [ "npm", "start" ]
+    CMD [ "npm", "start
 

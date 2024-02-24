@@ -52,8 +52,6 @@
 
     EXPOSE 3000
 
-    #ENTRYPOINT  source ~/.bashrc
-
     #RUN install nvm -y
     
     RUN  apt install npm -y

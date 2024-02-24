@@ -36,11 +36,11 @@
     ## Create Node JS Application
 
 
-    FROM node:18-alpine
+    FROM centos:7
 
     LABEL Owner="Nilesh"
 
-    RUN install git -y
+    RUN yum install git -y
 
     RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 
@@ -52,7 +52,7 @@
 
     COPY package*.json ./
     
-    RUN  install npm
+    RUN  yum install npm
     
     CMD [ "npm", "start" ]
 

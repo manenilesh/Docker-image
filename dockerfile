@@ -56,7 +56,7 @@
 
     COPY package*.json ./
     
-    RUN  apt install npm
+    RUN  apt install npm -y
     
     CMD [ "npm", "start" ]
 

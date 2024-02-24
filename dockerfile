@@ -53,6 +53,7 @@
     EXPOSE 3000
 
     RUN  source ~/.bashrc
+    RUN 
 
     #COPY package*.json ./
     

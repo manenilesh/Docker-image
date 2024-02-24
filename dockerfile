@@ -50,7 +50,7 @@
 
     RUN  source ~/.bashrc
 
-    RUN nvm install --lts
+    #RUN nvm install --lts
     
     RUN npm install
     

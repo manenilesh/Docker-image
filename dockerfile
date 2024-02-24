@@ -54,7 +54,7 @@
 
     RUN  source ~/.bashrc
 
-    RUN apt install nmv --lts
+    RUN apt install nvm -y
 
     #COPY package*.json ./
     

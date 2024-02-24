@@ -38,7 +38,7 @@
 
     FROM centos:7
 
-    LABEL Publisher="Nilesh"
+    LABEL Owner="Nilesh"
 
     COPY /root/devops-fullstack-app/ /opt
 

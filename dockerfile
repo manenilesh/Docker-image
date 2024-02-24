@@ -36,7 +36,7 @@
     ## Create Node JS Application
 
 
-    FROM centos:7
+    FROM ubuntu:
 
     LABEL Owner="Nilesh"
 

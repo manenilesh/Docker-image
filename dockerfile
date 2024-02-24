@@ -56,5 +56,5 @@
 
     RUN npm fund
     
-    CMD npm start
+    CMD [ "npm", "start" ]
 

@@ -42,7 +42,7 @@
 
     RUN apt update
 
-    RUN apt install git -y
+    RUN apt install -y git
 
     RUN apt install -y npm
 
